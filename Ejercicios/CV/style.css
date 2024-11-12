@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: rg; 
+    font-weight: 100;   
+}
+hr{
+    margin: 20px 0px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+h1{
+   font-weight: 100; 
+   color: rgba(38, 38, 38, 0.827);
+}
+
+h3{
+    color: coral;
+    font-weight: 200;
+}
+
+.elementos-div{
+    width: 500px;
+}
+
+.elementos-div p{
+    margin: 2px;
+    font-weight: 100;
+}
+
+.estudios p{
+    margin: 5px 0px;
+}
+
+.titulo-educación{
+    font-size: 20px;
+    color:#8A67E0;
+}
+
+.experiencia h3{
+    margin-bottom: 0px;
+}
+
+.titulo-experiencia{
+    font-size: 18px;
+    color: #8A67E0;
+}
+.experiencia p{
+    margin: 5px 0px;
+}
+.experiencia ul{
+    margin: 15px 0px;
+}
+
+@font-face{
+    font-family:rg-it;
+    src: url(fuentes/coolvetica\ rg\ it.otf);
+}
+
+@font-face{
+    font-family:rg;
+    src: url(fuentes/coolvetica\ rg.otf);   
+}
+
+
+@font-face{
+    font-family:crammed;
+    src: url(fuentes/coolvetica\ crammed\ rg.otf);   
+}
